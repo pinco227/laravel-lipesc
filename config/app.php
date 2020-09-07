@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -135,7 +134,6 @@ return [
     */
 
     'providers' => [
-
         /*
          * Laravel Framework Service Providers...
          */
@@ -181,7 +179,6 @@ return [
 
         // Stripe
         Cartalyst\Stripe\Laravel\StripeServiceProvider::class
-
     ],
 
     /*
@@ -196,7 +193,6 @@ return [
     */
 
     'aliases' => [
-
         'App' => Illuminate\Support\Facades\App::class,
         'Arr' => Illuminate\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
@@ -235,7 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Cart' => Darryldecode\Cart\Facades\CartFacade::class,
         'Stripe' => Cartalyst\Stripe\Laravel\Facades\Stripe::class
-
     ],
 
+    'log' => 'errorlog',
 ];
